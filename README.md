@@ -41,7 +41,7 @@ The Emotion Recognition model is trained off the Extended Cohn Kanade Dataset.
 
 **Heart Rate Detection** 
 
-The heart rate detection testing and trainnig process relies on the PURE heart rate dataset.
+The heart rate detection testing and training process relies on the PURE heart rate dataset.
 
 After downloading the dataset, simply replace the directories in these files with that to your PURE dataset.
 
@@ -68,6 +68,8 @@ The Facial feature detection represents a heuristic approach, and relies on two 
 ---
 # Datasets
 
+## Publicly Available datasets
+
 **The Extended Cohn-Kanade Database** - A complete dataset for action unit and emotion-specified expression. 
 * [The-Extended-Cohn-Kanade-Dataset](https://ieeexplore.ieee.org/document/5543262)
 
@@ -76,3 +78,7 @@ The Facial feature detection represents a heuristic approach, and relies on two 
 
 **UBFC-Phys Stress Dataset** - Stress dataset, modeled after the Trier Social Stress Test, was collected with and without contact from participants living social stress situations.
 *  [UBFC-Phys-Stress-Dataset](https://ieeexplore.ieee.org/document/9346017)
+
+## Our Custom Dataset
+
+** Contains videos split into 10 second intervals. Includes .txt file with average stress level score (decimals) for each video.
